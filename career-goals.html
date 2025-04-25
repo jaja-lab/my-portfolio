@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Goals - John Doe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Career Goals</h1>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article>
+        <img src="career.jpg" alt="Career image" width="300">
+        <audio controls>
+          <source src="career-message.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <video width="320" height="240" controls>
+          <source src="goals-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <label>First Name: <input type="text" name="first_name"></label><br>
+          <label>Last Name: <input type="text" name="last_name"></label><br>
+          <label>Company Name: <input type="text" name="company_name"></label><br>
+          <label>Email: <input type="email" name="email"></label><br>
+          <label>Phone: <input type="phone" name="phone"></label><br>
+          <label>Message:<br><textarea name="message"></textarea></label><br>
+          Best Contact Time:<br>
+          <label><input type="radio" name="contact_time" value="am"> A.M.</label>
+          <label><input type="radio" name="contact_time" value="pm"> P.M.</label>
+          <label><input type="radio" name="contact_time" value="anytime"> Anytime</label><br>
+          Preferred Contact Method:
+          <select name="contact_method">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select><br>
+          <input type="submit" value="Submit">
+        </form>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 John Doe</p>
+  </footer>
+</body>
+</html>

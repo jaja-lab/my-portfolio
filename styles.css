@@ -1,0 +1,63 @@
+<!-- External CSS (styles.css) -->
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selector */
+body {
+  background-image: url('japanese-garden.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #DADBDD;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ID Selector */
+#current-date {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Class Selector */
+.highlight {
+  color: #d00;
+  font-weight: bold;
+}
+
+/* Descendant Selector */
+nav ul {
+  list-style-type: square;
+  margin: 10px;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  padding: 0.5em 0;
+  line-height: 1.5;
+}
+
+/* Layout */
+header, footer {
+  background-color: #020;
+  padding: 10px;
+  border: 1px solid #999;
+}

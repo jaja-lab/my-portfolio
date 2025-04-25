@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatavious Riddick's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.onload = function() {
+      document.getElementById('current-date').innerText = new Date().toDateString();
+      console.log("Resume loaded");
+    };
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Jatavious Riddick</h1>
+    <h2>Front-End Developer</h2>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <h3>Experience</h3>
+        <p><strong>Software Developer</strong> at <em>ABC Corp</em> <br>Developed responsive websites and optimized performance.</p>
+        <hr>
+        <h3>Education</h3>
+        <p><em>B.S. in Computer Science</em> - XYZ University</p>
+      </article>
+
+      <article>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Certifications</h3>
+        <table>
+          <caption>Relevant Certifications</caption>
+          <tr><th>Name</th><th>Authority</th><th>Year</th><th>Status</th></tr>
+          <tr><td>Web Development</td><td>Coursera</td><td>2023</td><td>Completed</td></tr>
+          <tr><td>JavaScript Basics</td><td>edX</td><td>2024</td><td>Completed</td></tr>
+        </table>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jatavious Riddick</p>
+    <div id="current-date"></div>
+  </footer>
+</body>
+</html>
+
+<!-- Cover Letter HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cover Letter - Jatavious Riddick</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cover Letter</h1>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article>
+        <p><strong>Dear Hiring Manager,</strong></p>
+        <p>I am writing to express my strong interest in the Front-End Developer position. With a solid background in HTML, CSS, and JavaScript, I bring both technical knowledge and passion to web development.</p>
+        <p><span>I am excited to bring my creativity</span> and dedication to your innovative team.</p>
+        <p><em>Thank you for your time and consideration.</em></p>
+        <p><mark>Best regards,</mark><br><strong>Jatavious Riddick</strong></p>
+        <hr>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Jatavious Riddick</p>
+  </footer>
+</body>
+</html>
+
+<!-- Career Goals HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Goals - Jatavious Riddick</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Career Goals</h1>
+    <nav>
+      <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article>
+        <img src="career.jpg" alt="Career image" width="300">
+        <audio controls>
+          <source src="career-message.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <video width="320" height="240" controls>
+          <source src="goals-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <label>First Name: <input type="text" name="first_name"></label><br>
+          <label>Last Name: <input type="text" name="last_name"></label><br>
+          <label>Company Name: <input type="text" name="company_name"></label><br>
+          <label>Email: <input type="email" name="email"></label><br>
+          <label>Phone: <input type="phone" name="phone"></label><br>
+          <label>Message:<br><textarea name="message"></textarea></label><br>
+          Best Contact Time:<br>
+          <label><input type="radio" name="contact_time" value="am"> A.M.</label>
+          <label><input type="radio" name="contact_time" value="pm"> P.M.</label>
+          <label><input type="radio" name="contact_time" value="anytime"> Anytime</label><br>
+          Preferred Contact Method:
+          <select name="contact_method">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select><br>
+          <input type="submit" value="Submit">
+        </form>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Jatavious Riddick</p>
+  </footer>
+</body>
+</html>
+
+<!-- External CSS (styles.css) -->
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selector */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ID Selector */
+#current-date {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Class Selector */
+.highlight {
+  color: #d00;
+  font-weight: bold;
+}
+
+/* Descendant Selector */
+nav ul {
+  list-style-type: square;
+  margin: 10px;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  padding: 0.5em 0;
+  line-height: 1.5;
+}
+
+/* Layout */
+header, footer {
+  background-color: #ccc;
+  padding: 10px;
+  border: 1px solid #999;
+}
